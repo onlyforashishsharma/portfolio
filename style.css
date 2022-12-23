@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Sevillana&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Sevillana&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(187, 184, 184); 
+    width: 300px;
+    height:100vh;
+    font-family: 'Bebas Neue', cursive;
+    /*font-family: 'Sevillana', cursive;
+    font-family: 'Vollkorn', serif;*/
+
+}
+.sidebar nav{
+    padding: 42px;
+
+}
+.sidebar nav li{
+    list-style-type:none;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 20px;
+}
+.container{
+    display: flex;
+
+}
+.info{
+    /* background-color: rgb(135, 5, 72); */
+    height: 60vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 65px;
+    
+}
+.name{
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+.about{
+    font-size: 40px;
+
+}
+.moreabout{
+    font-size: 20px;
+    margin: 22px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color: dodgerblue;
+     font-weight: bold;
+     font-size: 21px;
+     margin: 0 3px;
+     cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+
+.pic img{
+    height: 60vh;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 50px;
+
+    font-family: 'Bebas Neue', cursive;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 0;
+}
+#form-check{
+    flex-direction: row;
+}   
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blogcontainer h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 23px;
+}
+.blogitem p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.twentyfive{
+    width: 75px;
+    background-color: yellow;
+}
+
+.hemberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+@media (max-width:900px) {
+    /* *{
+        background-color: rgb(235, 143, 143);
+    } */
+    .sidebar{
+       transform: translate(-443px,0px);
+       position: absolute;
+    }
+    
+}
